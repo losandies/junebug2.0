@@ -1,6 +1,7 @@
 from django.db import models
+from skill.models import Skill
 
-from backend.users.models import UserAccount
+from users.models import UserAccount
 
 # Create your models here.
 

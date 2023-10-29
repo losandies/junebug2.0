@@ -4,6 +4,7 @@ from django.contrib.auth.models import (
     AbstractBaseUser,
     PermissionsMixin,
 )
+import uuid
 
 
 class UserAccountManager(BaseUserManager):
