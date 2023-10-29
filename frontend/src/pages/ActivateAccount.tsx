@@ -39,21 +39,19 @@ const ActivateAccount: FC = () => {
         navigate("/login");
     };
     return (
-        <div className="h-screen w-screen flex justify-center items-center">
-            <Card>
-                <CardHeader>
-                    <CardTitle>Activate your account!</CardTitle>
-                    <CardDescription>
-                        Are you ready to find your dream mentor?
-                    </CardDescription>
-                </CardHeader>
-                <CardContent>
-                    <Button size={"full"} onClick={onClick}>
-                        Activate
-                    </Button>
-                </CardContent>
-            </Card>
-        </div>
+        <Card className="h-48 flex flex-col justify-center items-center">
+            <CardHeader>
+                <CardTitle>Activate your account!</CardTitle>
+                <CardDescription>
+                    Are you ready to find your dream mentor?
+                </CardDescription>
+            </CardHeader>
+            <CardContent>
+                <Button size={"full"} onClick={onClick}>
+                    Activate
+                </Button>
+            </CardContent>
+        </Card>
     );
 };
 
